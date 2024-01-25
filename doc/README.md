@@ -1,12 +1,9 @@
-# Projektets Namn
+# sudo keys (webbshop)
 
 ## Beskrivning
 
-Här beskriver du applikationens funktionalitet.
-
-### Exempel (ta bort)
-
-Book-O-Matic är en applikation där användare kan skapa virtuella bokhyllor. De kan mata in vilka böcker de har, och information om dessa. Man kan betygssätta böcker och skriva kommentarer. Om en bok är inlagd av en annan användare kan andra användare lägga till den i "sin" bokhylla, och skriva egna kommentarer och recensioner och sätta egna betyg. Man kan söka efter titlar och se kommentarer, recensioner och betyg
+Sudo keys är en applikation där användare kan ta del av vår enomra produktlistning och kategorier av spel. Med en dynamisk lagerhantering för att övervaka och uppdatera lagernivån av olika givna produkter. 
+Med en användarvänlig varukorg kan användare lägga till produkter och slutföra sina köptransaktioner. Användvaren kan hantera registering och inloggning på webbshoppen för att spåra sina beställningar och hantera sina konton. 
 
 ## Användare och roller
 
