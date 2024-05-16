@@ -1,0 +1,66 @@
+body{
+    background-color: yellowgreen;
+    gap: none;
+}
+
+#container {
+display: grid;
+grid-template-areas:
+'hd hd hd'
+'mn mn mn'
+'ft ft ft';
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: max-content 1fr 10%;
+}
+
+#hd{
+    grid-area: hd;
+    border-bottom: 3px solid lightgray;
+    display: grid;
+    grid-template-areas:
+    'nm'
+    'info';
+    grid-template-rows: 50% 50%;
+}
+
+#brand{
+    border-bottom: 3px solid lightgray;
+}
+
+#brand a{
+    color: black;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+#categories{
+    grid-area: info;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.category a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#mn{
+    grid-area: mn;
+    display: flex;
+    flex-direction: row;
+}
+
+#ft{
+    grid-area: ft;
+}
+
+.products{
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 2px;
+}
